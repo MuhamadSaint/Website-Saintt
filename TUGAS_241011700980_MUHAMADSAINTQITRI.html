@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>Latihan Membuat Form Pendaftaran</title>
+	</head>
+	<body style="background-color: lightgreen;">
+		<!--NAMA, TANGGAL LAHIR, ALAMAT, KOTA, PEKERJAAN, JENIS
+		KELAMIN, HOBBY.-->
+			<center>
+				<h1> <p align="center"> <font color="forestgreen"> Free Registration </h1> </p> </font>
+			<form action="" method="POST">
+			<table>
+				<tr>
+					<td width="110"> <b> Nama : </b> </td>
+					<td> <input type="text" size="25" name="Nama"> </td>
+				</tr>
+				<tr> 
+					<td><b> Tanggal Lahir : </b></td>
+					<td> <input type="date"></td>
+				</tr>
+				
+				</tr>
+				<tr>
+					<td> <b> Alamat : </b> </td>
+					<td><textarea name="alamat" rows="4" cols="30"> </textarea></td>
+				</tr>
+				<tr>
+					<td> <b> Kota : </b> </td>
+					<td><input type="text" size="15" name="Kota"> </td>
+				</tr>
+				<tr>
+					<td><b> Pekerjaan : </b> </td>
+					<td>
+					<select name=Pekerjaan>
+						<option value="Pilih di sini">Pilih di sini</option>
+						<option value="Farmer">Farmer</option>
+						<option value="Doctor">Doctor</option>
+						<option value="Teacher">Teacher</option>
+						<option value="Police Officer">Police Officer</option>
+						<option value="Chef">Chef</option>
+						<option value="Singer">Singer</option>
+						<option value="Artist">Artist</option>
+						<option value="Lawyer">Lawyer</option>
+						<option value="Fisherman">Fisherman</option>
+						<option value="Pilot">Pilot</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td> <b> Jenis Kelamin : </b> </td>
+					<td><input type="radio" name="jkel" value="pria"> Pria <input type="radio" name="jkel" value="wanita"> Wanita</td>
+				</tr>
+				<tr>
+					<td> <b> Hobby : </b> </td>
+						<td> <input type="checkbox" name="Hobby" value="Reading"> Reading<br>
+						<input type="checkbox" name="Hobby" value="Sport"> Sport<br>
+						<input type="checkbox" name="Hobby" value="Singging"> Singing<br>
+						<input type="checkbox" name="Hobby" value="Travelling"> Travelling<br>
+						<input type="checkbox" name="Hobby" value="Swimming"> Swimming<br>
+						<input type="button" value="Kirim">
+						<input type="reset" value="Cancel">
+						</td>
+				</table>
+			</center>
+			</form>
+	</body>
+</html>
+					
